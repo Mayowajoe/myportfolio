@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tableau Dashboards — Mayowa Adebowale</title>
+  <meta name="description" content="Interactive Tableau dashboards: e-commerce, airlines, Airbnb, income survey, and migration patterns." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">Home</a>
+    <nav class="nav">
+      <a href="python.html">Python</a>
+      <a href="sql.html">SQL</a>
+      <a class="active" href="tableau.html">Tableau</a>
+      <a href="machine_learning.html">Machine_Learning</a>
+      <a href="web-scraping.html">Web Scraping</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+  </header>
+
+  <main class="section">
+    <h1 class="section-title">Tableau Dashboards</h1>
+    <p class="lede">
+      Interactive dashboards across e-commerce, airlines, Airbnb, income survey insights, and migration patterns.
+    </p>
+    <p>
+      <a class="btn" href="https://public.tableau.com/app/profile/mayowa.adebowale3619/vizzes" target="_blank" rel="noopener">
+        <i class="fa-solid fa-chart-line"></i> Tableau Public Gallery
+      </a>
+    </p>
+
+    <div class="grid grid-cards">
+      <!-- 1: E-Commerce -->
+      <a class="card" href="https://public.tableau.com/app/profile/mayowa.adebowale3619/viz/ECOMMERCEDASHBOARD_17557870056260/ECOMMERCEDASHBOARD" target="_blank" rel="noopener" role="article" aria-label="E-Commerce Dashboard">
+        <img src="images/ecommerce-marketing.jpg" alt="E-Commerce dashboard preview" loading="lazy" />
+        <div class="card-body">
+          <h3>E-Commerce Dashboard</h3>
+          <p>Revenue trends, top products, category profitability, CLV segments, retention &amp; seasonality.</p>
+          <div class="tag-row"><span class="tag">Revenue</span><span class="tag">CLV</span></div>
+          <span class="btn small">Open ↗</span>
+        </div>
+      </a>
+
+      <!-- 2: Airline Performance Comparison -->
+      <a class="card" href="https://public.tableau.com/app/profile/mayowa.adebowale3619/viz/AirlinePerformanceComparison_17512320546840/AirlinePerformanceComparisonDashboard" target="_blank" rel="noopener" role="article" aria-label="Airline Performance Comparison">
+        <img src="images/airline.jpg" alt="Airline performance dashboard preview" loading="lazy" />
+        <div class="card-body">
+          <h3>Airline Performance Comparison</h3>
+          <p>On-time rates, delays, cancellations, and carrier vs. route comparisons with filters.</p>
+          <div class="tag-row"><span class="tag">On-time</span><span class="tag">Delays</span></div>
+          <span class="btn small">Open ↗</span>
+        </div>
+      </a>
+
+      <!-- 3: Airbnb -->
+      <a class="card" href="https://public.tableau.com/app/profile/mayowa.adebowale3619/viz/AirbnbVisualization_17512229551670/RevenuevsBedroom" target="_blank" rel="noopener" role="article" aria-label="Airbnb — Revenue vs Bedroom">
+        <img src="images/airbnb.jpg" alt="Airbnb revenue vs bedroom dashboard preview" loading="lazy" />
+        <div class="card-body">
+          <h3>Airbnb — Revenue vs Bedroom</h3>
+          <p>Revenue by bedroom count with distribution views and drill-downs.</p>
+          <div class="tag-row"><span class="tag">Pricing</span><span class="tag">Distribution</span></div>
+          <span class="btn small">Open ↗</span>
+        </div>
+      </a>
+
+      <!-- 4: Income Survey Story -->
+      <a class="card" href="https://public.tableau.com/app/profile/mayowa.adebowale3619/viz/IncomeSurveyViz/Story1" target="_blank" rel="noopener" role="article" aria-label="Income Survey — Story">
+        <img src="images/income-survey.jpg" alt="Income survey story preview" loading="lazy" />
+        <div class="card-body">
+          <h3>Income Survey — Story</h3>
+          <p>Demographic segmentation and income distributions presented as a guided story.</p>
+          <div class="tag-row"><span class="tag">Segmentation</span><span class="tag">Story</span></div>
+          <span class="btn small">Open ↗</span>
+        </div>
+      </a>
+
+      <!-- 5: Atlas Van Lines Migration Patterns -->
+      <a class="card" href="https://public.tableau.com/app/profile/mayowa.adebowale3619/viz/ATLASVANLINESMIGRATIONPATTERNS/Dashboard1" target="_blank" rel="noopener" role="article" aria-label="Atlas Van Lines — Migration Patterns">
+        <img src="images/atlas-van-lines.jpg" alt="Atlas Van Lines migration patterns dashboard preview" loading="lazy" />
+        <div class="card-body">
+          <h3>Atlas Van Lines — Migration Patterns</h3>
+          <p>Migration flows and trends with geospatial views and summary KPIs.</p>
+          <div class="tag-row"><span class="tag">Geo</span><span class="tag">Trends</span></div>
+          <span class="btn small">Open ↗</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer compact">
+    <p>&copy; <span id="year"></span> Mayowa Adebowale</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

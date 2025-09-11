@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Scraping — Mayowa Adebowale</title>
+  <meta name="description" content="Clean, reliable web scraping for analytics: requests/BS4, data cleaning, and NLP summaries." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="page-scraping">
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">Home</a>
+    <nav class="nav">
+      <a href="python.html">Python</a>
+      <a href="sql.html">SQL</a>
+      <a href="tableau.html">Tableau</a>
+      <a href="machine_learning.html">Machine_Learning</a>
+      <a class="active" href="web-scraping.html">Web Scraping</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <h1 class="section-title">Web Scraping</h1>
+      <p class="lede">Reliable extract → clean → analyze pipelines using Requests/BeautifulSoup. Outputs are tidy tables with light NLP summaries.</p>
+
+      <div class="grid grid-cards grid-single">
+        <!-- Single Project: Georgia Tech People Scraper -->
+        <a class="card" href="https://github.com/Mayowajoe/Web_scraping_n_analytics/blob/main/GATECH%20webscraping/gatech_people%20webscrap.py" target="_blank" rel="noopener" role="article" aria-label="Georgia Tech People — Web Scraping & Analytics (Python)">
+          <img src="images/gatech.jpg" alt="Georgia Tech people directory scraping and analytics preview" loading="lazy" />
+          <div class="card-body">
+            <h3>Georgia Tech People — Web Scraping &amp; Analytics</h3>
+            <p>Scrapes and cleans faculty listing data, then analyzes tokens, correlations, and generates quick word-frequency visuals.</p>
+            <div class="tag-row">
+              <span class="tag">Requests</span>
+              <span class="tag">BeautifulSoup</span>
+              <span class="tag">NLP</span>
+            </div>
+            <span class="btn small">Open Script ↗</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer compact">
+    <p>&copy; <span id="year"></span> Mayowa Adebowale</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Machine Learning — Mayowa Adebowale</title>
+  <meta name="description" content="End-to-end machine learning: supervised & unsupervised learning, feature engineering, model optimization, and forecasting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="page-ml">
+  <!-- Site Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">Home</a>
+    <nav class="nav">
+      <a href="python.html">Python</a>
+      <a href="sql.html">SQL</a>
+      <a href="tableau.html">Tableau</a>
+      <a class="active" href="alteryx.html">Machine Learning</a>
+      <a href="web-scraping.html">Web Scraping</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <h1 class="section-title">Machine Learning</h1>
+      <p class="lede">
+        Supervised &amp; unsupervised learning with clean pipelines: feature engineering, cross-validation, metrics, and model tuning.
+      </p>
+      <p>
+        <a class="btn" href="https://github.com/Mayowajoe/Machine_Learning" target="_blank" rel="noopener">
+          <i class="fa-solid fa-robot"></i> View ML Repository
+        </a>
+      </p>
+
+      <div class="grid grid-cards grid-single">
+        <!-- Single Project: Machine Learning Repo -->
+        <a class="card" href="https://github.com/Mayowajoe/Machine_Learning" target="_blank" rel="noopener" role="article" aria-label="Machine Learning — End to End">
+          <img src="images/city_power.jpg" alt="Machine learning project preview" loading="lazy" />
+          <div class="card-body">
+            <h3>Tetuan City power consumption - Machine Learning — End to End</h3>
+            <p>Classification, clustering, and forecasting with scikit-learn pipelines, hyperparameter tuning, and evaluation metrics.</p>
+
+            <!-- Long description (collapsible to keep page tidy) -->
+            <details>
+              <summary><strong>Scope &amp; methods (click to expand)</strong></summary>
+
+              <p><strong>Advanced Machine Learning &amp; Forecasting — Python</strong></p>
+              <p>End-to-end ML workflows combining supervised &amp; unsupervised learning with time-series forecasting. Focus on clean feature pipelines, model selection/tuning, interpretable outputs, and decision-ready analytics.</p>
+
+              <p><strong>Datasets:</strong> Tabular (classification &amp; regression) and time-series (forecasting).</p>
+
+              <p><strong>Models:</strong></p>
+              <ul>
+                <li><strong>Supervised:</strong> Linear/Logistic Regression (Ridge/Lasso/Elastic Net), Decision Trees, Random Forests, Gradient Boosting, SVM, k-NN</li>
+                <li><strong>Unsupervised:</strong> K-Means, Hierarchical (Agglomerative), DBSCAN; PCA for dimensionality reduction</li>
+                <li><strong>Forecasting:</strong> ARIMA/SARIMA, Exponential Smoothing; ARCH/GARCH for volatility</li>
+              </ul>
+
+              <p><strong>Analyses / Experiments:</strong></p>
+              <ul>
+                <li>Data cleaning, missing-value handling, outlier treatment, encoding &amp; scaling</li>
+                <li>Pipelines &amp; ColumnTransformer (leak-free train/val/test)</li>
+                <li>Hyperparameter tuning (GridSearchCV / RandomizedSearchCV)</li>
+                <li>Clustering &amp; segment profiling (elbow, silhouette)</li>
+                <li>Dimensionality reduction (variance explained, 2D/3D visuals)</li>
+                <li>Time-series diagnostics (stationarity, ACF/PACF, STL) &amp; multi-horizon forecasts</li>
+                <li>Anomaly detection (residuals/thresholding, cluster distance)</li>
+                <li>Model interpretation (feature importance, permutation; optional SHAP)</li>
+              </ul>
+
+              <p><strong>Metrics:</strong></p>
+              <ul>
+                <li><strong>Classification:</strong> Accuracy, Precision/Recall, F1, ROC-AUC, PR-AUC, Confusion Matrix</li>
+                <li><strong>Regression:</strong> RMSE, MAE, R², residual diagnostics</li>
+                <li><strong>Forecasting:</strong> MAE, RMSE, MAPE, AIC/BIC, residual whiteness tests</li>
+              </ul>
+
+              <p><strong>Stack:</strong> Python, pandas, NumPy, scikit-learn, statsmodels, matplotlib, seaborn.</p>
+            </details>
+
+            <div class="tag-row">
+              <span class="tag">scikit-learn</span>
+              <span class="tag">Pipelines</span>
+              <span class="tag">CV</span>
+              <span class="tag">Time Series</span>
+            </div>
+            <span class="btn small">Open Repo ↗</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer compact">
+    <p>&copy; <span id="year"></span> Mayowa Adebowale</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

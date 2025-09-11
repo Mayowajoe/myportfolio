@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Mayowa Adebowale – Data Analyst & Data Scientist. Projects in Python, SQL, Machine Learning, Tableau, and Web Scraping." />
+  <title>Mayowa Adebowale — Portfolio</title>
+
+  <!-- Fonts / Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Home</a>
+      <nav class="nav">
+        <a href="python.html">Python</a>
+        <a href="machine_learning.html">Machine Learning</a>
+        <a href="sql.html">SQL</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="web-scraping.html">Web Scraping</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+    </div>
+  </header>
+
+  <main>
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Mayowa Joseph <span class="accent">Adebowale</span></h1>
+      <p class="subtitle">Data Analyst • Data Scientist • Database Enthusiast</p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">View My Work</a>
+        <a class="btn ghost" href="mailto:a.mayorjoe@gmail.com">Contact Me</a>
+      </div>
+
+      <!-- Badge strip -->
+      <div class="badge-strip" aria-label="certifications and skills">
+        <a class="chip chip-badge"
+          href="https://www.credly.com/users/mayowa-adebowale.41eee32f/edit#credly"
+          target="_blank" rel="noopener" title="Designer Core">
+          <img class="chip-icon" src="images/Bagde1.png" alt="Designer Core" />
+          <span>Designer Core</span>
+        </a>
+
+        <a class="chip chip-badge"
+          href="https://www.credly.com/badges/e48eb6a6-8c76-46d5-b391-9de022ce06c5/linked_in_profile"
+          target="_blank" rel="noopener" title="Machine Learning">
+          <img class="chip-icon" src="images/Bagde2.png" alt="Machine Learning" />
+          <span>Machine Learning</span>
+        </a>
+
+        <a class="chip chip-badge"
+          href="https://www.credly.com/badges/a0b98a34-ac70-41dc-80c0-c08e67450d7b/linked_in_profile"
+          target="_blank" rel="noopener" title="Alteryx Auto Insights">
+          <img class="chip-icon" src="images/Bagde3.png" alt="Alteryx Auto Insights" />
+          <span>Alteryx Auto Insights</span>
+        </a>
+
+        <a class="chip chip-badge"
+          href="https://www.credly.com/badges/9bcee4f1-419d-40a4-959e-031b2a7024cb/linked_in_profile"
+          target="_blank" rel="noopener" title="Alteryx Foundational">
+          <img class="chip-icon" src="images/Bagde4.png" alt="Alteryx Foundational" />
+          <span>Alteryx Foundational</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Larger, non-compressed circular avatar -->
+    <div class="hero-media" style="height:340px;">
+      <!-- Change extension if needed (jpg/png/jpeg) -->
+      <img
+        class="avatar"
+        src="images/dp.jpg"
+        alt="Portrait of Mayowa Adebowale"
+        style="width:260px;height:260px;"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+  </div>
+</section>
+
+    <!-- Categories -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Explore by Category</h2>
+        <div class="grid grid-cards">
+          <a class="card category" href="python.html">
+            <i class="fa-brands fa-python card-icon" aria-hidden="true"></i>
+            <h3>Python Projects</h3>
+            <p>ML, EDA, time series, automation and more.</p>
+          </a>
+          <a class="card category" href="alteryx.html">
+            <i class="fa-solid fa-robot card-icon" aria-hidden="true"></i>
+            <h3>Machine Learning</h3>
+            <p>Pipelines, model selection, tuning & forecasting.</p>
+          </a>
+          <a class="card category" href="sql.html">
+            <i class="fa-solid fa-database card-icon" aria-hidden="true"></i>
+            <h3>SQL Projects</h3>
+            <p>Data modeling, queries, optimization, and pipelines.</p>
+          </a>
+          <a class="card category" href="tableau.html">
+            <i class="fa-solid fa-chart-line card-icon" aria-hidden="true"></i>
+            <h3>Tableau Dashboards</h3>
+            <p>Interactive visual analytics and storytelling.</p>
+          </a>
+          <a class="card category" href="web-scraping.html">
+            <i class="fa-solid fa-spider card-icon" aria-hidden="true"></i>
+            <h3>Web Scraping</h3>
+            <p>Clean extraction and text analytics from the web.</p>
+          </a>
+          <a class="card category" href="https://github.com/Mayowajoe" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github card-icon" aria-hidden="true"></i>
+            <h3>All Repositories</h3>
+            <p>Browse more projects &amp; experiments on GitHub.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="grid grid-cards">
+          <!-- 1 -->
+          <article class="card">
+            <img src="images/city_power.jpg" alt="Tetuan City power consumption charts" loading="lazy" />
+            <div class="card-body">
+              <h3>Tetuan City Power Consumption - Machine Learning — End to End</h3>
+              <p>Forecasting and anomaly detection across 3 zones with feature engineering and CV.</p>
+              <div class="tag-row"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">TS</span></div>
+              <a class="btn small" href="https://github.com/Mayowajoe/Machine_Learning" target="_blank" rel="noopener">Notebook</a>
+            </div>
+          </article>
+          <!-- 2 -->
+          <article class="card">
+            <img src="images/bank.jpg" alt="Bank loan classifier visuals" loading="lazy" />
+            <div class="card-body">
+              <h3>KNN &amp; Naive Bayes — Loan Acceptance</h3>
+              <p>Compared KNN and NB on bank customers; tuned hyperparameters and evaluated ROC-AUC.</p>
+              <div class="tag-row"><span class="tag">KNN</span><span class="tag">Naive Bayes</span></div>
+              <a class="btn small" href="https://github.com/Mayowajoe/KNN-and-NBC-Analysis/blob/main/Code.ipynb" target="_blank" rel="noopener">Notebook</a>
+            </div>
+          </article>
+          <!-- 3 -->
+          <article class="card">
+            <img src="images/gatech.jpg" alt="Web scraping project preview" loading="lazy" />
+            <div class="card-body">
+              <h3>Georgia Tech Faculty — Sentiment</h3>
+              <p>Scraped faculty data, token analysis, correlations, and word cloud with clean visuals.</p>
+              <div class="tag-row"><span class="tag">Requests</span><span class="tag">BeautifulSoup</span><span class="tag">NLP</span></div>
+              <a class="btn small" href="https://github.com/Mayowajoe/Web_scraping_n_analytics/blob/main/GATECH%20webscraping/gatech_people%20webscrap.py" target="_blank" rel="noopener">Script</a>
+            </div>
+          </article>
+          <!-- 5 -->
+          <article class="card">
+            <img src="images/tableau.png" alt="Tableau analytics preview" loading="lazy" />
+            <div class="card-body">
+              <h3>Tableau — Analytics Gallery</h3>
+              <p>E-commerce, Airlines, Airbnb, Income Survey, and Atlas Van Lines dashboards.</p>
+              <div class="tag-row"><span class="tag">Tableau</span><span class="tag">Viz</span></div>
+              <a class="btn small" href="tableau.html">Open</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Get in touch</h4>
+        <p>
+          <a href="mailto:a.mayorjoe@gmail.com">a.mayorjoe@gmail.com</a><br />
+          <a href="tel:+13092551260">(309) 255-1260</a>
+        </p>
+      </div>
+      <div>
+        <h4>Location</h4>
+        <p>Chicago, IL, USA</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <p class="social">
+          <a href="https://www.linkedin.com/in/adebowale-mayowa-joseph/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Mayowajoe" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </p>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Mayowa Adebowale</p>
+  </footer>
+
+  <!-- Minimal inline JS so this page works without an external file -->
+  <script>
+    // Footer year
+    document.querySelectorAll('#year').forEach(el => el.textContent = new Date().getFullYear());
+    // Theme toggle (persists)
+    (function(){
+      const root = document.documentElement;
+      const saved = localStorage.getItem('theme');
+      if(saved === 'light') root.classList.add('light');
+      const btn = document.querySelector('.theme-toggle');
+      btn && btn.addEventListener('click', () => {
+        root.classList.toggle('light');
+        localStorage.setItem('theme', root.classList.contains('light') ? 'light' : 'dark');
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SQL Projects — Mayowa Adebowale</title>
+  <meta name="description" content="SQL projects: data modeling, analytics engineering, window functions, CTEs, and performance tuning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="page-sql">
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">Home</a>
+    <nav class="nav">
+      <a href="python.html">Python</a>
+      <a class="active" href="sql.html">SQL</a>
+      <a href="tableau.html">Tableau</a>
+      <a href="machine_learning.html">Machine_Learning</a>
+      <a href="web-scraping.html">Web Scraping</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <h1 class="section-title">SQL Projects</h1>
+      <p class="lede">Analytics engineering, dimensional modeling, and performant queries for business-ready data.</p>
+
+      <!-- Two-column grid on desktop, 1-column on mobile -->
+      <div class="grid grid-cards grid-2">
+        <!-- Project 1: eCommerce Sales Analysis (MySQL) -->
+        <a class="card" href="https://github.com/Mayowajoe/MySQL_Projects/blob/main/eCommerce%20Project/SQLQuery1.sql" target="_blank" rel="noopener" role="article" aria-label="eCommerce Sales Analysis — MySQL">
+          <img src="images/ecommerce.jpg" alt="eCommerce analysis: revenue trends, product/category profitability, CLV, retention, seasonality, geography" loading="lazy" />
+          <div class="card-body">
+            <h3>eCommerce Sales Analysis — MySQL</h3>
+            <p>This project provided end-to-end e-commerce insights: revenue trends, product/category profitability, CLV &amp; retention, seasonality, and geography.</p>
+            <p><strong>Tables:</strong> customers, products, orders, order_items.</p>
+            <p><strong>Analyses:</strong></p>
+            <ul>
+              <li>Monthly Revenue Trend (MoM growth &amp; %)</li>
+              <li>Top Products by Revenue (units, profit, margin)</li>
+              <li>Customer Lifetime Value (segments: VIP/Loyal/Regular/New)</li>
+              <li>Category Performance (revenue, profit, margin, rank)</li>
+              <li>Customer Retention (avg days between first 5 orders)</li>
+              <li>Seasonal Sales Pattern (by month)</li>
+              <li>Geographic Sales (state/country, rev/customer)</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">MySQL</span>
+              <span class="tag">Revenue</span>
+              <span class="tag">CLV</span>
+              <span class="tag">Retention</span>
+              <span class="tag">Geo</span>
+            </div>
+            <span class="btn small">Open SQL ↗</span>
+          </div>
+        </a>
+
+        <!-- Project 2: HR Analytics & Employee Management (MySQL) -->
+        <a class="card" href="https://github.com/Mayowajoe/MySQL_Projects/blob/main/HR%20Analytics%20%26%20Employee%20Management/SQL%20Script.sql" target="_blank" rel="noopener" role="article" aria-label="HR Analytics & Employee Management — MySQL">
+          <img src="images/HR.jpg" alt="HR analytics: turnover, pay, performance, training, managers, tenure, hiring, high performers" loading="lazy" />
+          <div class="card-body">
+            <h3>HR Analytics &amp; Employee Management — MySQL</h3>
+            <p>This project analyzed turnover, pay, performance, training, managers, tenure, hiring, and high performers.</p>
+            <p><strong>Tables:</strong> departments, employees, performance_reviews, training_programs, employee_training.</p>
+            <p><strong>Analyses:</strong></p>
+            <ul>
+              <li><strong>Turnover:</strong> rate &amp; risk by department</li>
+              <li><strong>Salary:</strong> min/max/avg/stdev/median by dept &amp; role</li>
+              <li><strong>Performance:</strong> latest scores, goals met, promo-ready</li>
+              <li><strong>Training Effectiveness:</strong> participants, pass rate, ROI</li>
+              <li><strong>Manager Effectiveness:</strong> span of control &amp; team outcomes</li>
+              <li><strong>Tenure:</strong> service brackets with KPIs</li>
+              <li><strong>Hiring Trends:</strong> hires by month/year</li>
+              <li><strong>High Performers:</strong> star/high/performer flags</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">MySQL</span>
+              <span class="tag">HR</span>
+              <span class="tag">People Analytics</span>
+            </div>
+            <span class="btn small">Open SQL ↗</span>
+          </div>
+        </a>
+
+        <!-- Add more projects here later -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer compact">
+    <p>&copy; <span id="year"></span> Mayowa Adebowale</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
